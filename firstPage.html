@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Contest</title>
+ <style>
+    #page-button{
+    padding:10px;
+    border:none;
+    background-color: purple;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.2s;
+    }
+ </style>
+</head>
+<body  style="background-color: rgb(241, 178, 130); 
+
+align-items: center;
+justify-content: center;    
+margin-top: 300px;
+margin-left: 650px;
+min-height: 100vh;
+width: 100%;">
+  <p><strong>Welcome to the Quize On Front-End</strong></p>
+  <br><br>
+<div style="margin-left: 80px;">
+    <a href="index.html"> <button id="page-button">Start Quiz</button></a>
+</div>
+
+  <script>
+    const button = document.getElementById("page-button");
+    button.addEventListener("click", function() {
+      alert("Page 2");
+    });
+  </script>
+</body>
+</html>
